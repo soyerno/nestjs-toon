@@ -1,5 +1,5 @@
 {
-  "name": "@modo/api-tools",
+  "name": "@playsistemico/nestjs-api-tools",
   "version": "1.0.0",
   "description": "Librería de herramientas para APIs con interceptors personalizados",
   "main": "dist/index.js",
