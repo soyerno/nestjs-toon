@@ -1,4 +1,4 @@
-# @modo/api-tools
+# @soyerno/nestjs-api-tools
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
