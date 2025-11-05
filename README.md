@@ -21,7 +21,7 @@ Librería de herramientas para APIs con interceptors personalizados para NestJS.
 ## 📦 Instalación
 
 ```bash
-npm install @modo/api-tools
+npm install @soyerno/nestjs-api-tools
 ```
 
 ## 🎯 Formato TOON
