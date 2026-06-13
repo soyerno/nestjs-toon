@@ -164,7 +164,7 @@ Los decoradores automáticamente:
 - **Formato TOON oficial:** Debe mantenerse 100% compatible con la especificación de github.com/toon-format/toon
 
 ### De Negocio/Producto
-- Librería interna para Modo (por ahora)
+- Librería open source de soyerno, publicada bajo licencia MIT
 - No está publicada en npm público (versión 1.0.0 es local)
 - Documentación debe estar completamente en español
 
