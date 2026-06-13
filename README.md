@@ -5,8 +5,8 @@
 Librería de herramientas para APIs con interceptors personalizados para NestJS.
 
 > 📖 **[Guía de Uso Rápido →](./docs/USAGE.md)** - Empieza en 5 minutos  
-> � **[Documentación Completa →](./docs/)** - Todas las guías disponibles  
-> � **[Notas de Desarrollo →](./docs/development/)** - Para contribuidores
+> 📚 **[Documentación Completa →](./docs/)** - Todas las guías disponibles  
+> 🔧 **[Notas de Desarrollo →](./docs/development/)** - Para contribuidores
 
 ## 🚀 Características
 
