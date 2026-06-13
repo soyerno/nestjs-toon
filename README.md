@@ -9,8 +9,7 @@
 Serializá las respuestas de tu API NestJS al formato **TOON** y ahorrá 30-60% de tokens en LLMs. Interceptor + decorators de Swagger, listo para usar.
 
 > 📖 **[Guía de Uso Rápido →](./docs/USAGE.md)** - Empieza en 5 minutos  
-> 📚 **[Documentación Completa →](./docs/)** - Todas las guías disponibles  
-> 🔧 **[Notas de Desarrollo →](./docs/development/)** - Para contribuidores
+> 📚 **[Documentación Completa →](./docs/)** - Todas las guías disponibles
 
 ## 🚀 Características
 
@@ -343,8 +342,7 @@ nestjs-toon/
 ├── docs/                                  # Documentación
 │   ├── USAGE.md                           # Guía de uso rápido
 │   ├── TOON_FORMAT.md                     # Formato TOON detallado
-│   ├── SWAGGER_FEATURES.md                # Integración con Swagger
-│   └── development/                       # Notas de desarrollo
+│   └── SWAGGER_FEATURES.md                # Integración con Swagger
 ├── package.json
 ├── tsconfig.json
 └── README.md                              # Documentación principal
