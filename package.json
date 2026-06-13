@@ -1,7 +1,7 @@
 {
-  "name": "@soyerno/nestjs-api-tools",
+  "name": "@soyerno/nestjs-toon",
   "version": "1.0.0",
-  "description": "Librería de herramientas para APIs con interceptors personalizados",
+  "description": "Serializá las respuestas de tu API NestJS al formato TOON y ahorrá 30-60% de tokens en LLMs (interceptor + decorators Swagger).",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -33,16 +33,16 @@
     "tools",
     "typescript"
   ],
-  "author": "Modo",
+  "author": "soyerno",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/modo/modo-llms-api-tools.git"
+    "url": "https://github.com/soyerno/nestjs-toon.git"
   },
   "bugs": {
-    "url": "https://github.com/modo/modo-llms-api-tools/issues"
+    "url": "https://github.com/soyerno/nestjs-toon/issues"
   },
-  "homepage": "https://github.com/modo/modo-llms-api-tools#readme",
+  "homepage": "https://github.com/soyerno/nestjs-toon#readme",
   "files": [
     "dist",
     "README.md",

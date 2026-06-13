@@ -169,7 +169,7 @@ tags[#3]: reading,gaming,coding
 ### Función toToonFormat
 
 ```typescript
-import { toToonFormat } from '@modo/api-tools';
+import { toToonFormat } from '@soyerno/nestjs-toon';
 
 const data = {
   users: [

@@ -2,7 +2,7 @@
 - [ ] 1.1 Agregar campo `repository` con estructura completa
 - [ ] 1.2 Definir `type: "git"`
 - [ ] 1.3 Definir URL del repositorio (actualizar con URL real cuando esté disponible)
-- [ ] 1.4 Usar formato: `"url": "https://github.com/modo/modo-llms-api-tools.git"`
+- [ ] 1.4 Usar formato: `"url": "https://github.com/soyerno/nestjs-toon.git"`
 
 ## 2. Campo Author
 - [ ] 2.1 Definir autor principal del proyecto
@@ -11,11 +11,11 @@
 
 ## 3. Campo Bugs
 - [ ] 3.1 Agregar campo `bugs` vinculado al repository
-- [ ] 3.2 Usar formato: `{ "url": "https://github.com/modo/modo-llms-api-tools/issues" }`
+- [ ] 3.2 Usar formato: `{ "url": "https://github.com/soyerno/nestjs-toon/issues" }`
 
 ## 4. Campo Homepage
 - [ ] 4.1 Agregar campo `homepage`
-- [ ] 4.2 Apuntar al README del repositorio: `"https://github.com/modo/modo-llms-api-tools#readme"`
+- [ ] 4.2 Apuntar al README del repositorio: `"https://github.com/soyerno/nestjs-toon#readme"`
 - [ ] 4.3 Alternativamente, usar sitio de documentación si existe
 
 ## 5. Campo Files

@@ -1,4 +1,4 @@
-# Comandos Útiles - @modo/api-tools
+# Comandos Útiles - @soyerno/nestjs-toon
 
 ## 🚀 Inicio Rápido
 
@@ -121,12 +121,12 @@ Esto mostrará:
 
 ### 1. Instalar en tu proyecto
 ```bash
-npm install @modo/api-tools
+npm install @soyerno/nestjs-toon
 ```
 
 ### 2. Importar y usar
 ```typescript
-import { ToonInterceptor, toToonFormat } from '@modo/api-tools';
+import { ToonInterceptor, toToonFormat } from '@soyerno/nestjs-toon';
 
 // Usar función directamente
 const toonData = toToonFormat({ message: 'Hello' });

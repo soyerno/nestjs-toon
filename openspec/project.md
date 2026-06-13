@@ -1,7 +1,7 @@
 # Project Context
 
 ## Purpose
-`@modo/api-tools` es una librería de herramientas para APIs con interceptors personalizados para NestJS. Su objetivo principal es proporcionar soporte nativo para el formato TOON (Token-Oriented Object Notation) en APIs NestJS, optimizando las respuestas para LLMs (Large Language Models) con un ahorro del 30-60% en tokens comparado con JSON tradicional.
+`@soyerno/nestjs-toon` es una librería de herramientas para APIs con interceptors personalizados para NestJS. Su objetivo principal es proporcionar soporte nativo para el formato TOON (Token-Oriented Object Notation) en APIs NestJS, optimizando las respuestas para LLMs (Large Language Models) con un ahorro del 30-60% en tokens comparado con JSON tradicional.
 
 **Objetivos principales:**
 - Transformar respuestas de API al formato TOON oficial automáticamente

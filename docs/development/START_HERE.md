@@ -2,7 +2,7 @@
 
 ## 🎉 Estado: COMPLETADO Y FUNCIONAL
 
-Tu librería `@modo/api-tools` está **100% lista y funcional** con soporte para el formato TOON oficial.
+Tu librería `@soyerno/nestjs-toon` está **100% lista y funcional** con soporte para el formato TOON oficial.
 
 ---
 
@@ -168,7 +168,7 @@ Todos los tests **pasan correctamente** ✅
 ## 📦 Estructura Final
 
 ```
-modo-llms-api-tools/
+nestjs-toon/
 ├── lib/                          # Librería principal
 │   ├── interceptors/
 │   │   └── toon.interceptor.ts   # Interceptor NestJS

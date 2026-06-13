@@ -1,4 +1,4 @@
-# 📚 Índice de Documentación - @modo/api-tools
+# 📚 Índice de Documentación - @soyerno/nestjs-toon
 
 Guía de navegación por toda la documentación del proyecto.
 
@@ -75,7 +75,7 @@ Guía de navegación por toda la documentación del proyecto.
 ## 📁 Estructura de Archivos
 
 ```
-modo-llms-api-tools/
+nestjs-toon/
 │
 ├── 📘 SUMMARY.md                    ← Resumen ejecutivo (EMPIEZA AQUÍ)
 ├── 📖 README.md                     ← Documentación principal

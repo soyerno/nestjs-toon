@@ -1,4 +1,4 @@
-🚀 *@playsistemico/nestjs-api-tools*
+🚀 *@soyerno/nestjs-toon*
 
 Hola equipo! Les presento una nueva librería para compartir herramientas y optimizar nuestras APIs NestJS.
 
@@ -36,7 +36,7 @@ GET /api/users -H "Accept: application/toon"
 
 *Instalación:*
 ```bash
-npm install @modo/api-tools
+npm install @soyerno/nestjs-toon
 ```
 
 *Documentación completa:*

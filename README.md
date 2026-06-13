@@ -1,8 +1,8 @@
-# @soyerno/nestjs-api-tools
+# @soyerno/nestjs-toon
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Librería de herramientas para APIs con interceptors personalizados para NestJS.
+Serializá las respuestas de tu API NestJS al formato **TOON** y ahorrá 30-60% de tokens en LLMs. Interceptor + decorators de Swagger, listo para usar.
 
 > 📖 **[Guía de Uso Rápido →](./docs/USAGE.md)** - Empieza en 5 minutos  
 > 📚 **[Documentación Completa →](./docs/)** - Todas las guías disponibles  
@@ -21,7 +21,7 @@ Librería de herramientas para APIs con interceptors personalizados para NestJS.
 ## 📦 Instalación
 
 ```bash
-npm install @soyerno/nestjs-api-tools
+npm install @soyerno/nestjs-toon
 ```
 
 ## 🎯 Formato TOON
@@ -72,7 +72,7 @@ Aplica el interceptor a todos los endpoints de tu aplicación:
 ```typescript
 // main.ts
 import { NestFactory } from '@nestjs/core';
-import { ToonInterceptor } from '@modo/api-tools';
+import { ToonInterceptor } from '@soyerno/nestjs-toon';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
@@ -91,7 +91,7 @@ bootstrap();
 
 ```typescript
 import { Controller, Get, UseInterceptors } from '@nestjs/common';
-import { ToonInterceptor } from '@modo/api-tools';
+import { ToonInterceptor } from '@soyerno/nestjs-toon';
 
 @Controller('api')
 @UseInterceptors(ToonInterceptor)
@@ -107,7 +107,7 @@ export class MyController {
 
 ```typescript
 import { Controller, Get, UseInterceptors } from '@nestjs/common';
-import { ToonInterceptor } from '@modo/api-tools';
+import { ToonInterceptor } from '@soyerno/nestjs-toon';
 
 @Controller('api')
 export class MyController {
@@ -150,7 +150,7 @@ Documenta endpoints que soportan tanto JSON como TOON:
 ```typescript
 import { Controller, Get } from '@nestjs/common';
 import { ApiTags, ApiOperation } from '@nestjs/swagger';
-import { ApiToonResponse } from '@modo/api-tools';
+import { ApiToonResponse } from '@soyerno/nestjs-toon';
 
 @ApiTags('examples')
 @Controller('api')
@@ -179,7 +179,7 @@ Para mayor control sobre la documentación de Swagger:
 
 ```typescript
 import { Controller, Get } from '@nestjs/common';
-import { ApiDualResponse } from '@modo/api-tools';
+import { ApiDualResponse } from '@soyerno/nestjs-toon';
 
 @Controller('api')
 export class MyController {
@@ -232,7 +232,7 @@ export class MyController {
 Para endpoints que solo devuelven JSON:
 
 ```typescript
-import { ApiJsonResponse } from '@modo/api-tools';
+import { ApiJsonResponse } from '@soyerno/nestjs-toon';
 
 @Controller('api')
 export class MyController {
@@ -265,7 +265,7 @@ En la interfaz de Swagger podrás:
 // main.ts
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import { ToonInterceptor } from '@modo/api-tools';
+import { ToonInterceptor } from '@soyerno/nestjs-toon';
 import { AppModule } from './app.module';
 
 async function bootstrap() {
@@ -322,7 +322,7 @@ TOON::{"MESSAGE":"HELLO WORLD","STATUS":"SUCCESS"}
 ## 🏗️ Estructura del Proyecto
 
 ```
-modo-llms-api-tools/
+nestjs-toon/
 ├── lib/                                    # Código fuente de la librería
 │   ├── interceptors/
 │   │   └── toon.interceptor.ts            # Interceptor principal
@@ -363,7 +363,7 @@ class ToonInterceptor implements NestInterceptor {
 Función que convierte cualquier dato al formato TOON usando la especificación oficial.
 
 ```typescript
-import { toToonFormat } from '@modo/api-tools';
+import { toToonFormat } from '@soyerno/nestjs-toon';
 
 // Uso básico
 const result = toToonFormat({ 

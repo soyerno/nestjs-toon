@@ -1,4 +1,4 @@
-# ✅ Checklist de Verificación - @modo/api-tools
+# ✅ Checklist de Verificación - @soyerno/nestjs-toon
 
 Verifica que todo funciona correctamente antes de usar en producción.
 
@@ -251,7 +251,7 @@ import {
   ApiToonResponse,
   ApiJsonResponse,
   ApiDualResponse
-} from '@modo/api-tools';
+} from '@soyerno/nestjs-toon';
 ```
 
 - [ ] Todos los imports funcionan
@@ -266,7 +266,7 @@ import {
 
 Verifica:
 
-- [ ] `name`: `@modo/api-tools`
+- [ ] `name`: `@soyerno/nestjs-toon`
 - [ ] `version`: `1.0.0`
 - [ ] `main`: `dist/index.js`
 - [ ] `types`: `dist/index.d.ts`
@@ -377,12 +377,12 @@ Crea un proyecto test:
 mkdir test-integration
 cd test-integration
 npm init -y
-npm install ../modo-llms-api-tools
+npm install ../nestjs-toon
 ```
 
 ```typescript
 // test.ts
-import { toToonFormat } from '@modo/api-tools';
+import { toToonFormat } from '@soyerno/nestjs-toon';
 
 console.log(toToonFormat({ message: 'Test' }));
 ```

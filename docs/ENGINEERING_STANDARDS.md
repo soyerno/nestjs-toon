@@ -5,7 +5,7 @@
 
 ## 📋 Resumen Ejecutivo
 
-Este documento presenta una evaluación completa del proyecto `@modo/api-tools` contra los estándares de ingeniería recomendados para librerías de NestJS.
+Este documento presenta una evaluación completa del proyecto `@soyerno/nestjs-toon` contra los estándares de ingeniería recomendados para librerías de NestJS.
 
 **Score General: 4/10** - Proyecto funcional pero **NO listo para producción**
 
@@ -95,13 +95,13 @@ npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslin
 {
   "repository": {
     "type": "git",
-    "url": "https://github.com/usuario/modo-llms-api-tools"
+    "url": "https://github.com/soyerno/nestjs-toon"
   },
   "author": "Tu Nombre <email@example.com>",
   "bugs": {
-    "url": "https://github.com/usuario/modo-llms-api-tools/issues"
+    "url": "https://github.com/soyerno/nestjs-toon/issues"
   },
-  "homepage": "https://github.com/usuario/modo-llms-api-tools#readme",
+  "homepage": "https://github.com/soyerno/nestjs-toon#readme",
   "files": [
     "dist",
     "README.md",

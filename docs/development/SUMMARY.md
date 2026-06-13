@@ -1,4 +1,4 @@
-# 🎉 Implementación Completa - @modo/api-tools
+# 🎉 Implementación Completa - @soyerno/nestjs-toon
 
 ## ✅ Estado: COMPLETADO y CORREGIDO
 
@@ -46,7 +46,7 @@
 ## 🏗️ Estructura del Proyecto
 
 ```
-modo-llms-api-tools/
+nestjs-toon/
 ├── lib/                                    # Librería principal
 │   ├── interceptors/
 │   │   └── toon.interceptor.ts            ✅ Interceptor principal
@@ -95,7 +95,7 @@ getData() { ... }
 ### Función toToonFormat
 
 ```typescript
-import { toToonFormat } from '@modo/api-tools';
+import { toToonFormat } from '@soyerno/nestjs-toon';
 
 // Básico
 toToonFormat({ users: [...] });
